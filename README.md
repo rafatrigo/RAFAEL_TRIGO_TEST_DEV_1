@@ -89,7 +89,7 @@ Now, on the Angular project, just create a button called "GET COMPANIES" which s
 
 ### **3.4 - TASK 4** ###
 
-You are almost there. Now you need to show that you know how to work with java objects (JSON)
+You are almost there. Now you need to show that you know how to work with javascript objects (JSON)
 
 * Create a input field that filters the companies by name or segment.
 
