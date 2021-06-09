@@ -9,23 +9,19 @@ Hello dear candidate. Please follow the instructions below to provide all the in
 This test aims to look a developer to join us with some technical/personal skills, like: 
  
 *  be able to find out solutions googling     
-*  work with core technologies used by our company (Java, [grails](https://docs.grails.org/4.0.1/guide/index.html), [angular](https://angular.io/), git ...)  
-*  think oriented by *quality* and *performance*  
+*  work with core technologies used by our company (Java, [grails](https://docs.grails.org/4.0.1/guide/index.html), [angular](https://angular.io/), git ...)   
 *  follow processes   
 
 ## **2 -  How do I get set up?** ##
 
-*  1 - Send a mail containing your **complete name** and your **phone** to **danielcamargoslucarelli@gmail.com** with the subject: **"I want to do the test DEV-1"**
-*  2 - While you wait for the response with a link, setup your environment with **Java SDK 11.x**, [LTS **Node.js** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
-*  3 - Create an account on [BitBucket](https://bitbucket.org/) or [GitHub](https://github.com/) if you don't have one. It's free and you'll use to submit your test to us.
-*  4 - Once you received the response mail with a link, download the .zip file with the repository. 
+*  1 - Setup your environment with **Java SDK 11.x**, [LTS **Node.js** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
+*  2 - Create an account on [BitBucket](https://bitbucket.org/) or [GitHub](https://github.com/) if you don't have one. It's free and you'll use to submit your test to us.
  
   
 You will find this structure:
 
 
 ```
-#!java
 
 /backend  
 /frontend  
@@ -75,22 +71,13 @@ This first task it's totally to be performed on the backend:
 [Create](https://docs.grails.org/4.0.1/ref/Command%20Line/create-domain-class.html) the DOMAIN classes on the way you want to represent:  
 
 *  A **Company** (with **name** and **segment**). For example, *FORD*, segment: *vehicles*.
-*  A **Stock** (from a Company, with **price** and **price date**) . 
 
 Then, **Bootstrap** ([see 5.4 section](https://guides.grails.org/creating-your-first-grails-app/guide/index.html)) your application with some fake data containing:  
 
 *  three companies;  
-*  each company with stock quotes from every **minute**, for each business **hour** ([10AM to 6 PM]), for the **last** thirty(30) days.
 
-Ex: If now it's 10:49, a company should have fifty(50) quotes for today: 10:00, 10:01, 10:02 ... 10:49.
+Finally, create a [Grails Service](https://docs.grails.org/4.0.1/ref/Command%20Line/create-service.html) with one method: *getCompanies()*. This method should list all componies.
 
-Finally, create a [Grails Service](https://docs.grails.org/4.0.1/ref/Command%20Line/create-service.html) with one method: *getStocks(company, numbersOfHoursUntilNow)*. This method should print on the console:  
-
-*  Each stock quote
-*  The total time, in millisseconds, to be executed
-*  The number of quotes retrieved
-
-Ex: the call *getStocks(AMAZON, 30)* should return all quotes from the last 30 hours, from each minute, for the AMAZON company.
 
 ### **3.3 - TASK 3** ###
 
@@ -98,7 +85,6 @@ Now, on the Angular project, just create a button called "GET COMPANIES" which s
 
 *  Name
 *  Segment
-*  Standard Deviation for its quotes for all time.
 
 **Do not worry** about design or making it beautiful! However, take attention for the good practices (use a service in Angular to accommodate your communication logic with the backend, instead of calling direct from the Controller).
 
@@ -106,19 +92,8 @@ Now, on the Angular project, just create a button called "GET COMPANIES" which s
 
 ### **3.4 - TASK 4** ###
 
-You are almost there. Our Angular project has a [Cypress test](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html) already set-up. To check that go to the frontend project root and run:
-
-
-```
-#!java
-
-npx cypress open
-```
-You now can execute the "unique test" and witness its failure.
-So, at this time, you can imagine what is your task here...
-
-PS: You can find this test at **/frontend/cypress/integration/unique_test.js**
-
+You are almost there. Now you need to show that you know how to work with java objects(JSON)
+- Create a input field that filters the companies by name or segment.
 
 
 ## **Done !** ##
