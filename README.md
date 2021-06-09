@@ -65,7 +65,7 @@ Good news ! The first task was just your environment setup. So, probably at this
 
 This first task it's totally to be performed on the backend:
 
-[Create](https://docs.grails.org/4.0.1/ref/Command%20Line/create-domain-class.html) the DOMAIN classes on the way you want to represent:  
+[Create](https://docs.grails.org/4.0.1/ref/Command%20Line/create-domain-class.html) the DOMAIN class on the way you want to represent:  
 
 *  A **Company** (with **name** and **segment**). For example, *FORD*, segment: *vehicles*.
 
@@ -89,8 +89,9 @@ Now, on the Angular project, just create a button called "GET COMPANIES" which s
 
 ### **3.4 - TASK 4** ###
 
-You are almost there. Now you need to show that you know how to work with java objects(JSON)
-- Create a input field that filters the companies by name or segment.
+You are almost there. Now you need to show that you know how to work with java objects (JSON)
+
+* Create a input field that filters the companies by name or segment.
 
 
 ## **Done !** ##
