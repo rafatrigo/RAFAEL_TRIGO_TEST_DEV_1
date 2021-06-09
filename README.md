@@ -31,7 +31,6 @@ We have two projects: a Grails project and an Angular project. The first one is 
 Inside the grails project directory (/backend), run:
 
 ```
-#!java
 
 grails run-app
 ```
@@ -39,14 +38,12 @@ to check if the things are ok.
 In the angular project directory (/frontend), run:
 
 ```
-#!java
 
 npm i
 ```
 to finish your setup, then execute
 
 ```
-#!java
 
 ng serve
 ```
