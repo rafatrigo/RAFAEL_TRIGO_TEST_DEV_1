@@ -14,7 +14,7 @@ This test aims to look a developer to join us with some technical/personal skill
 
 ## **2 -  How do I get set up?** ##
 
-*  1 - Setup your environment with **Java SDK 11.x**, [LTS **Node.js** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
+*  1 - Setup your environment with **Java SDK 11.x**, [LTS **Node.js 14.XX** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
 *  2 - Create an account on [BitBucket](https://bitbucket.org/) or [GitHub](https://github.com/) if you don't have one. It's free and you'll use to submit your test to us.
  
   
@@ -52,7 +52,7 @@ ng serve
 
 ## **3 - INSTRUCTIONS** ##
 
-This test contains **4 tasks** described below. Create a **public** project on your Bitbucket(or GitHub) account named **<your name>_TEST_DEV_1**, **push** your work to the **master** branch, and send a mail to **danielcamargoslucarelli@gmail.com** with:
+This test contains **4 tasks** described below. Create a **public** project on your Bitbucket(or GitHub) account named **<your name>_TEST_DEV_1**, **push** your work to the **master** branch, and send a mail to **daniel@metryx.com.br** with:
 
 *  the subject: **"Submitting for DEV-1"**
 *  a link to your project on Bitbucket (or GitHub)
