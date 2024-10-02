@@ -14,7 +14,7 @@ This test aims to look a developer to join us with some technical/personal skill
 
 ## **2 -  How do I get set up?** ##
 
-*  1 - Setup your environment with **Java SDK 11.x**, [LTS **Node.js 14.XX** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
+*  1 - Setup your environment with **Java SDK 11.x**, [LTS **Node.js 20.XX** version](https://nodejs.org/en/download/), **[Grails 4.x](https://grails.org/download.html)**   
 *  2 - Create an account on [BitBucket](https://bitbucket.org/) or [GitHub](https://github.com/) if you don't have one. It's free and you'll use to submit your test to us.
  
   
