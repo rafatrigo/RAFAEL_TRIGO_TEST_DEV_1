@@ -1,0 +1,28 @@
+<div class="container">
+
+    <button class="getButton" (click)="handleClick()"> 
+        {{label}}
+    </button>
+    <div>
+        
+        <input type="search" placeholder="Search" [(ngModel)]="filter"/>
+    
+        <table class="companyTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Segment</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr *ngFor = 'let company of filterCompanies()' >
+                    <td class="companyName"> {{company.name}} </td>
+                    <td> {{company.segment}} </td>
+                </tr>
+            </tbody>
+    
+        </table>
+    </div>
+
+</div>
